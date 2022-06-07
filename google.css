@@ -51,8 +51,6 @@ section header ul li img {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-section header ul li img:hover {
-}
 .material-symbols-outlined {
   color: #fff;
 }
