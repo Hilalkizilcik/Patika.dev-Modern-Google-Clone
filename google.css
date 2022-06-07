@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,
+body {
+  background-color: #202124;
+}
+section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+section header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+section header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+section header ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+section header ul li a:hover {
+  color: #f19090;
+}
+
+section header ul li img {
+  width: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+section header ul li img:hover {
+}
+.material-symbols-outlined {
+  color: #fff;
+}
+.material-symbols-outlined:hover {
+  color: #f19090;
+}
+.container {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section .google {
+  width: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section .google .searchbox {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+  caret-color: #fff;
+}
+section .google .searchbox .search {
+  background-color: transparent;
+  width: 100%;
+  padding: 13px;
+  padding-left: 45px;
+  padding-right: 60px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border: 1px solid #fff;
+  outline: none;
+  font-size: 16px;
+}
+section .google .searchbox .search:hover {
+  background-color: #303134;
+  border: 1px solid #303134;
+  box-shadow: 0 1px #171717;
+}
+section .google .searchbox .icons {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  padding: 12px 20px;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+}
+section .google .buttons {
+  margin-top: 30px;
+}
+section .google .buttons button {
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #202124;
+  outline: none;
+  margin: 0 5px;
+  padding: 12px 20px;
+  color: #fff;
+  background-color: #303134;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+section .google .buttons button:hover {
+  border: 1px solid #fff;
+}
+section .footer {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #171717;
+}
+section .footer .row {
+  padding: 15px 25px;
+  border-top: 1px solid #303134;
+}
+section .footer .row.row.row2 ul li a:hover {
+  color: #f19090;
+}
+section .footer .row.row2 {
+  display: flex;
+  justify-content: space-between;
+}
+section .footer .row.row2 ul {
+  display: flex;
+}
+section .footer .row.row2 ul li {
+  list-style: none;
+}
+section .footer .row.row2 ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  margin-right: 25px;
+}
+section .footer .row.row2 ul:nth-child(2) li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  margin-right: 0px;
+  margin-left: 25px;
+}
